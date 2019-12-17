@@ -1,6 +1,6 @@
 {
   "name": "copy-links",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "npm plugin for copy link.",
   "main": "index.js",
   "scripts": {
@@ -11,12 +11,15 @@
     "url": "git+https://github.com/feiyang0117/copy-link.git"
   },
   "keywords": [
-    "copy-link"
+    "copy-links"
   ],
   "author": "Inspiration",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/feiyang0117/copy-link/issues"
   },
-  "homepage": "https://github.com/feiyang0117/copy-link#readme"
+  "homepage": "https://github.com/feiyang0117/copy-link#readme",
+  "dependencies": {
+    "user": "0.0.0"
+  }
 }
