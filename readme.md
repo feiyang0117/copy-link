@@ -5,7 +5,8 @@
 3.  代码片段
 ```
 var webpackConfig = {
-    // ... 这里是其他配置 ...
+    // ... 这里是引用配置 ...
+    ...
     plugins: [
         new CopyLinkWebpackPlugin({
             to: __dirname + '/dist',
