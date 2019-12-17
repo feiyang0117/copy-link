@@ -2,12 +2,13 @@
 2.  eg:
     var CopyLinkWebpackPlugin = require('copy-links');
 
-3.  var webpackConfig = {
->>        // ... 这里是其他配置 ...
->>>>        plugins: [
->>>>>>>>        new CopyLinkWebpackPlugin({
->>>>>>>>>>>>         to: __dirname + '/dist',
->>>>>>>>>>>          from: __dirname + '/copy'
->>>>>>>>        })
->>>>        ]
-    };
+3.  
+>> var webpackConfig = {
+>>>> // ... 这里是其他配置 ...
+>>>> plugins: [
+>>>>>>>> new CopyLinkWebpackPlugin({
+>>>>>>>>>>> to: __dirname + '/dist',
+>>>>>>>>>>> from: __dirname + '/copy'
+>>>>>>>> })
+>>>> ]
+>> };
