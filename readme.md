@@ -4,7 +4,6 @@
 
 3.  代码片段
 ```
-```javascript
 var webpackConfig = {
     // ... 这里是其他配置 ...
     plugins: [
