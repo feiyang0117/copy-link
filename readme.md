@@ -5,7 +5,7 @@ const CopyLink = require('copy-links')
 
 plugins: [
     new CopyLink({
-      arrLinks:['./package-lock.json'],
+      arrLinks:['./../xxx.js'],
       name: "/dist"
     })
 ]
